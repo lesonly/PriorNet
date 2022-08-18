@@ -15,17 +15,6 @@ code：fv6m)) of ResNet-50 implemented in Pytorch if you want to train the netwo
 - download or put the RGB saliency benchmark datasets ([Baidu drive](https://pan.baidu.com/s/1kUPZGSe1CN4AOVmB3R3Qxg 
 code：sfx6)) in the folder of `data` for training or test.
 
-## generate the boundary envelope
-After preparing the data folder, you need to use the enlarge_b.py to produce the boundary envelope, which can be used to generate the Expanded Ground Truth for training. Run this command
-```
-python data4/enlarged_b.py
-```
-## generate the dilated and eroded mask for extended difference loss function
-After preparing the data folder, you need to use the dilate_erode.py to generate the dilated and eroded mask for extended difference loss function for training. Run this command
-```
-python data4/dilate_erode.py
-```
-
 ## training
 you may revise the `TAG` and `SAVEPATH` defined in the *train.py*. After the preparation, run this command 
 ```
