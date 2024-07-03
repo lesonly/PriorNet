@@ -16,8 +16,8 @@ code：fv6m)) of ResNet-50 implemented in Pytorch if you want to train the netwo
 code：sfx6)) in the folder of `data` for training or test.
 
 
-## generate the dilated and eroded mask for extended difference loss function
-After preparing the data folder, you need to use the dilate_erode.py to generate the dilated and eroded mask for extended difference loss function for training. Run this command.
+## generate the dilated and eroded mask for hierarchical difference-aware loss function
+After preparing the data folder, you need to use the dilate_erode.py to generate the dilated and eroded mask for hierarchical difference-aware loss function for training. Run this command.
 ```
 python data4/dilate_erode.py
 ```
